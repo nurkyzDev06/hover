@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+.buttons-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.buttons-general button {
+    margin: 0 15px;
+}
+
+.btn-one {
+    color: white;
+    background: black;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.btn-one:hover {
+    color: black;
+    background: yellow;
+    transform: scale(1.1);
+}
+
+.btn-two {
+    color: white;
+    background: green;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-two:focus {
+    background: red;
+    transform: scale(1.1)
+}
+
+.btn-three {
+    color: white;
+    background: blue;
+    padding: 15px 35px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px  ;
+}
+
+.btn-three:active {
+
+
+    background: cyan;
+    color: black;
+    transform: scale(1.1);
+}
+
+h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    transition: .4s;
+    padding: 60px 0;
+}
+
+h1:hover {
+    color: green;
+    transform: scale(1.1);
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    transition: .4s;
+}
+
+h2:hover {
+    color: blue;
+    transform: scale(1.1);
+}
+
+h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 60px 0;
+    transition: .4s;
+}
+
+h3:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    transition: .4s;
+}
+
+h4:hover {
+    color: yellow;
+    transform: scale(1.1)
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.navbar a {
+    color: blue;
+    font-size: 22px;
+    transition: .4s;
+    font-weight: 500;
+    padding: 0 25px;
+}
+
+.navbar a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+    border-radius: 5px;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.block:hover {
+    background: black;
+}
+
+
+.block h5 {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.block:hover h5 {
+    color: white;
+}
+
+.block h6 {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.block:hover h6 {
+    color: white;
+}
+
+.block p {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.block:hover p {
+    color: white;
+}
+
+.block-two {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 4px black;
+    margin: 30px 0;
+    position: relative;
+}
+
+.block-two:before {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    content: '';
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 4px black;
+    margin: 30px 0;
+}
+
+.block-two:after {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    content: 'text';
+    top: 200px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 4px black;
+    margin: 30px 0;
+}
